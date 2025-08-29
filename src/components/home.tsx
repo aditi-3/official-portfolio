@@ -1,6 +1,6 @@
 import { CiCircleChevDown } from "react-icons/ci";
 import { GiHamburgerMenu } from "react-icons/gi";
-
+import wave from '../assets/wave2.png'
 import '../css/home.css'
 import '../css/kodchasan.css'
 
@@ -18,7 +18,7 @@ function Home() {
             <br></br>
             <CiCircleChevDown size={36}/>
         </div>
-        <img id="wave" src="public\wave2.png" alt="wave" />
+        <img id="wave" src={wave} alt="wave" />
     </>
   )
 }
