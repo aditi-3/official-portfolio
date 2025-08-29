@@ -67,3 +67,6 @@ export default tseslint.config([
   },
 ])
 ```
+
+Font: Kodchasan: npx expo install @expo-google-fonts/kodchasan expo-font
+

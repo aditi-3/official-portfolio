@@ -1,0 +1,56 @@
+.home {
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    /* margin-left: 30vh; */
+    /* margin-right: 30vh; */
+    padding-left: 30vh;
+    padding-right: 30vh;
+    margin-top: 30vh;
+    height: 100%;
+}
+
+button{
+    background-color: #AC1BC6;
+    color: #ffff;
+    border: 2px solid #ffff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-family: 'Kodchasan', sans-serif;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 64px;
+    padding: none;
+}
+
+h2{
+    font-size: 32px;
+}
+
+.icon {
+    height: 48px;
+    width: 48px;
+}
+
+#wave {
+    position: absolute;
+    top: 55vh;
+    left: 0;
+    width: 100vw;
+    height: auto;
+    z-index: 1;
+    pointer-events: none; /* Optional: allows clicks to pass through the image */
+}
+
+.menu-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 3;
+}
