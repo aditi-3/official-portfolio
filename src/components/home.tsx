@@ -18,7 +18,7 @@ function Home() {
             <br></br>
             <CiCircleChevDown size={36}/>
         </div>
-        <img id="wave" src="src\assets\wave2.png" alt="wave" />
+        <img id="wave" src="public\wave2.png" alt="wave" />
     </>
   )
 }
